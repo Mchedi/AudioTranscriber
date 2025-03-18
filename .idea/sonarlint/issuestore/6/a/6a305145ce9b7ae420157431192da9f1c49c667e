@@ -1,2 +1,10 @@
 
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÄû¿
+d
+java:S1128"GRemove this unused import 'org.springframework.boot.CommandLineRunner'.(È—ÿÅ8¥ÇÀÉÚ2
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¦ÇÀÉÚ2
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¦ÇÀÉÚ2
+S
+java:S1128	"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8§ÇÀÉÚ2

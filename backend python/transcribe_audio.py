@@ -6,7 +6,7 @@ import whisper
 app = Flask(__name__)
 
 # Load Whisper model once (for performance)
-model = whisper.load_model("base")
+model = whisper.load_model("medium.en")
 
 @app.route("/transcribe", methods=["POST"])
 def transcribe():
@@ -18,7 +18,7 @@ def transcribe():
     file.save(file_path)
 
     # Transcribe using Whisper
-    result = model.transcribe(file_path,language="ar")
+    result = model.transcribe(file_path)
 
     return jsonify({"transcription": result["text"]})
 
