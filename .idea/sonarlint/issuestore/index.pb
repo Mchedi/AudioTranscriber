@@ -11,3 +11,5 @@ F
 backend/.gitattributes,5/3/535213007f823251565fd58fbb672c5e760971b2
 R
 "backend python/transcribe_audio.py,a/0/a049537a1ecbb8357c05b36febf6330d7b7f4433
+a
+1backend/src/main/resources/application.properties,3/f/3f2f17daa13c76ba02d9d8cf5498cdfd7ebe2ce8
