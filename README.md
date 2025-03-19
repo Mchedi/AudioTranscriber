@@ -107,7 +107,7 @@ npm run dev
 ```
 
 Open the Application:
-Visit `http://localhost:3000` in your browser.
+Visit `http://localhost:5173` in your browser.
 
 Upload an Audio File:
 Use the provided file input to select an audio file (e.g., MP3, WAV), then click "Upload and Transcribe".
