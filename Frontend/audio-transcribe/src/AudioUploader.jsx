@@ -36,18 +36,22 @@ try {
 
     return(
 
-    <><div className="container">
+    <>
+    <div className="container">
         <h1> Audio to text Transcriber </h1>
 
         <div className="file-input">
             <input type="file" accept="audio/*" onChange={handlefilechange} />
         </div>
-        <button className="upload button"onClick={handleUpload} > Upload and transcribe </button>
-    </div><div className="transcrption-result">
+        <button className="upload-button"onClick={handleUpload} > Upload and transcribe </button>
+    <div className="transcrption-result">
 
             <h2> Transcrption result</h2>
             <p>{transcrption}</p>
-        </div></>
+        </div>
+        </div>
+        </>
+        
     );
 
 
