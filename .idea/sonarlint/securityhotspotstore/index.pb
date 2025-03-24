@@ -17,9 +17,17 @@ w
 Gbackend/src/main/java/com/audio_Transcriber/TranscrptionController.java,d/0/d03d1f4a4d78c41879bab1a568539b528d17f48c
 j
 :backend/src/main/java/com/audio_Transcriber/webconfig.java,7/7/77c52b54d6112c735f7c60169e25f97679ac6439
-_
-/Frontend/audio-transcribe/src/AudioUploader.jsx,7/f/7f6ddd4e8aa398c8f95f2f136bd3430e52983ab3
 ?
 backend/pom.xml,f/9/f9590cd73598b6f2427c8b1327d922c50d1dc504
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+B
+backend/Dockerfile,1/2/1299d064ef40647d5147370c3665f2bb07ec76d8
+C
+Frontend/Dockerfile,6/2/624b0bf12979ba339c38c6bb5634e3bd9c5ce0d5
+C
+Frontend/nginx.conf,d/f/df8709eb0492991230130ba31913035bdb50ff11
+I
+backend python/Dockerfile,8/f/8ff789abf501a3705842d4b200176e8e11bd2aa9
+B
+docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a

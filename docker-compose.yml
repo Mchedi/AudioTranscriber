@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  # Spring Backend (Java)
+  backend:
+    build: ./backend       # Uses backend/Dockerfile
+    ports:
+      - "8080:8080"       # Makes Spring accessible at localhost:8080
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+
+  # React Frontend
+  frontend:
+    build: ./Frontend      # Uses frontend/Dockerfile
+    ports:
+      - "5173:5173"           # React will be at http://localhost
+    depends_on:
+      - backend           # Waits for backend to start first
+
+  # Python Script
+  python:
+    build: ./backend python        # Uses python/Dockerfile
+    volumes:
+      - ./python:/app      # Syncs local python/ folder with container
+    depends_on:
+      - backend
